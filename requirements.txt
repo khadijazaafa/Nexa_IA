@@ -1,0 +1,41 @@
+# Environment & Utils
+python-dotenv
+requests
+
+# LangChain & LLM
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-tavily
+langchain-huggingface
+langchain-text-splitters
+
+# LangGraph
+langgraph
+
+# RAG & Vector Store
+faiss-cpu
+sentence-transformers
+pypdf
+
+# FastAPI & Async
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic[email]>=2
+
+# Auth & Security
+passlib[bcrypt]
+PyJWT
+
+# Database ORM
+sqlalchemy
+
+# Optional: scanned PDF / OCR support
+pillow
+pytesseract
+pdf2image
+
+# Optional: Streamlit demo
+streamlit

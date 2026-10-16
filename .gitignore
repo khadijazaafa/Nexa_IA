@@ -1,0 +1,28 @@
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded documents
+data/uploads/*
+
+# Generated FAISS index
+data/faiss_index/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+logs/
+*.log
+
+logs/
+*.log
